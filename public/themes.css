@@ -1,0 +1,41 @@
+.dark {
+	background: #000;
+	color: #fff
+}
+
+.light {
+	background: #fff;
+	color: #000;
+}
+
+.tan {
+	background: tan;
+	color: #ccc;
+}
+
+
+/* 划线 高亮 */
+
+.underline {
+	cursor: pointer;
+}
+
+.underline rect {
+	stroke: transparent;
+}
+
+.underline line {
+	stroke-width: 4px;
+	margin-top: 2px;
+	stroke: var(--annotation-color);
+}
+
+
+.highlight {
+	cursor: pointer;
+}
+
+.highlight rect {
+	cursor: pointer;
+	fill: var(--annotation-color);
+}
